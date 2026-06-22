@@ -1,0 +1,10 @@
+name: Test
+on:
+ push:
+jobs:
+  hello:
+    runs-on: macos-latest
+    steps:
+     - uses: actions/checkout@v4
+     - name: Swift Version
+       run: swift --version
