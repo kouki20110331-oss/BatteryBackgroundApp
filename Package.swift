@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "HelloApp",
+    name: "My App",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .executable(
-            name: "HelloApp",
-            targets: ["HelloApp"]
+            name: "My App",
+            targets: ["My App"]
         )
     ],
     targets: [
         .executableTarget(
-            name: "HelloApp"
+            name: "My App"
         )
     ]
 )
