@@ -1,9 +1,7 @@
-// swift-tools-version: 6.1
-
 import PackageDescription
 
 let package = Package(
-    name: "BatteryBackgroundApp",
+    name: "MyApp",
     platforms: [
         .iOS(.v15)
     ],
@@ -14,7 +12,7 @@ let package = Package(
         )
     ],
     targets: [
-        .executableTarget(
+        .target(
             name: "MyApp"
         )
     ]
