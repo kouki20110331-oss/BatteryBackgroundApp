@@ -1,20 +1,21 @@
- // swift-tools-version: 6.1
+// swift-tools-version: 6.1
+
 import PackageDescription
 
 let package = Package(
-    name: "My App",
+    name: "BatteryBackgroundApp",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .executable(
-            name: "My App",
-            targets: ["My App"]
+            name: "MyApp",
+            targets: ["MyApp"]
         )
     ],
     targets: [
         .executableTarget(
-            name: "My App"
+            name: "MyApp"
         )
     ]
 )
