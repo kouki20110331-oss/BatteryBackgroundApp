@@ -1,14 +1,14 @@
-name: Test
+name: Swift Build
 
 on:
   push:
 
 jobs:
-  hello:
+  build:
     runs-on: macos-latest
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Swift Version
-        run: swift --version
+      - name: Build Swift Package
+        run: swift build
