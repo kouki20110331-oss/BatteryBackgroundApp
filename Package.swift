@@ -1,5 +1,7 @@
- // swift-tools-version: 6.1
+// swift-tools-version: 5.9
+
 import PackageDescription
+import AppleProductTypes
 
 let package = Package(
     name: "MyApp",
