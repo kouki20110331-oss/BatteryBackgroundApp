@@ -6,13 +6,13 @@ let package = Package(
         .iOS(.v15)
     ],
     products: [
-        .library(
+        .executable(
             name: "HelloApp",
             targets: ["HelloApp"]
-        ),
+        )
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "HelloApp"
         )
     ]
